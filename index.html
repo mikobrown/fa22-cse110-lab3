@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meeting Minutes</title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                <h1>Rowing Club Meeting</h1>
+                <nav id="navbar">
+                    <ol>
+                        <li><a href="#top">Top of page</a></li>
+                        <li><a href="#Agenda">Agenda</a></li>
+                        <li><a href="#Questions">Questions</a></li>
+                    </ol>
+                </nav>
+            </header>
+            <main>
+                <hr>
+                <h2>Brainstorming Team Uniform</h2>
+                <h3><span class="date">October 9, 2022</span></h3>
+                <section class="Attendance List">
+                    <h2>Attendance List</h2>
+                    <ul>
+                        <li><strong>Miko Brown</strong> (President)</li>
+                        <li>Thomas Powell</li>
+                        <li>Jane Doe</li>
+                    </ul>
+                </section>
+                <hr>
+                <section id="Agenda" class="Agenda">
+                    <h2>Agenda</h2>
+                    <ol>
+                        <li>Brand</li>
+                        <li>Color</li>
+                        <li>Design (<i>American</i>)</li>
+                    </ol>
+                </section>
+                <hr>
+                <section class="Unfinished Business">
+                    <h2>Unfinished Business</h2>
+                    <details>
+                        <Summary>Items</Summary>
+                        <ul>
+                            <li>JL as brand option?</li>
+                            <li>Boathouse as brand option?</li>
+                        </ul>
+                    </details>
+                </section>
+                <hr>
+                <section class="New Business">
+                    <h2>New Business</h2>
+                    <p>We are looking to finalize <br><em>color</em> and <em>design</em> of uniforms</p>
+                </section>
+                <hr>
+                <section id="Questions" class="Questions">
+                    <h2>Questions</h2>
+                    <ul>
+                        <li>Should <b>colors</b> stay the same?</li>
+                        <li>Should <b>mascot</b> be in design?</li>
+                        <li>When is final decision due?</li>
+                        <li>Tank tops or unisuits?</li>
+                    </ul>
+                </section>
+                <section class="Media">
+                    <h2>Media</h2>
+                    <img src="images/unisuit.jpg" alt="unisuit">
+                    <video controls>
+                        <source src="summary.mp4" type="video/mp4">
+                        <p>
+                            Your browser doesn't support HTML video. Here is a
+                            <a href="summary.mp4">link to the video</a> instead.
+                          </p>
+                    </video>
+                    <audio src="summary.mp4" controls></audio>
+                </section>
+                <section class="Form">
+                    <h2>Form</h2>
+                    <form>
+                        <fieldset>
+                            <input type="date" id="date" name="date"><br>
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname"><br>
+                            <label for="boathouseUni">Boathouse uni</label><br>
+                            <input type="radio" id="boathouseUni" name="boathouseUni"><br>
+                            <label for="JLUni">JL uni</label><br>
+                            <input type="checkbox" id="JLUni" name="JLUni"><br>
+                            <label for="position">Position:</label><br>
+                            <textarea id="position"></textarea>
+                            <br>
+                            <label for="ice-cream-choice">Fav Ice Cream:</label><br>
+                            <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+                            <datalist id="ice-cream-flavors">
+                                <option value="Chocolate">
+                                <option value="Coconut">
+                                <option value="Mint">
+                                <option value="Strawberry">
+                                <option value="Vanilla">
+                            </datalist>
+                            <br>
+                            <label for="pet-select">Cat or dog?</label>
+                            <br>
+                            <select name="pets" id="pet-select">
+                                <option value="">Choose an option</option>
+                                <option value="dog">Dog</option>
+                                <option value="cat">Cat</option>
+                            </select>
+                            <br>
+                            <button class="favorite styled" type="button">
+                                Add to favorites
+                            </button>
+                        </fieldset>
+                    </form>
+                </section>
+            </main>
+            <footer>
+                <p>Notes taken by Miko Brown</p>
+            </footer>
+        </div>
+    </body>
+</html>
