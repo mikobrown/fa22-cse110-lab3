@@ -4,6 +4,12 @@
         <title>Meeting Minutes</title>
         <meta charset="utf-8">
         <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+        <style>
+            .UnfinishedBusiness {
+                background-color: #888888
+            }
+        </style>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <div class="content">
@@ -21,11 +27,11 @@
                 <hr>
                 <h2>Brainstorming Team Uniform</h2>
                 <h3><span class="date">October 9, 2022</span></h3>
-                <section class="Attendance List">
+                <section class="AttendanceList">
                     <h2>Attendance List</h2>
                     <ul>
                         <li><strong>Miko Brown</strong> (President)</li>
-                        <li>Thomas Powell</li>
+                        <li style="color:#ff0000">Thomas Powell</li>
                         <li>Jane Doe</li>
                     </ul>
                 </section>
@@ -39,7 +45,7 @@
                     </ol>
                 </section>
                 <hr>
-                <section class="Unfinished Business">
+                <section class="UnfinishedBusiness">
                     <h2>Unfinished Business</h2>
                     <details>
                         <Summary>Items</Summary>
@@ -50,7 +56,7 @@
                     </details>
                 </section>
                 <hr>
-                <section class="New Business">
+                <section class="NewBusiness">
                     <h2>New Business</h2>
                     <p>We are looking to finalize <br><em>color</em> and <em>design</em> of uniforms</p>
                 </section>
@@ -108,7 +114,7 @@
                                 <option value="cat">Cat</option>
                             </select>
                             <br>
-                            <button class="favorite styled" type="button">
+                            <button class="favoritestyled" type="button">
                                 Add to favorites
                             </button>
                         </fieldset>
