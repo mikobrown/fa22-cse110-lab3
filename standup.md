@@ -1,5 +1,7 @@
-| Name          | Current Work  | Progress | Problems   |
-| ------------- | ------------- | -------- | ---------- |
-|               |               |          |            |
-|               |               |          |            |
-|               |               |          |            |
+Standup Meeting Template
+
+| Name          | Current Work  | Progress       | Problems   |
+| ------------- | ------------- | -------------- | ---------- |
+| Jane Doe      |  Project      | Finished X     | None       |
+|               |               |                |            |
+|               |               |                |            |
